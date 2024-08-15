@@ -1,5 +1,5 @@
 {
-  "name": "IDapp",
+  "name": "idapp",
   "version": "1.0.0",
   "main": "index.js",
   "description": "",
@@ -14,15 +14,19 @@
   },
   "dependencies": {
     "@hashgraph/sdk": "^2.49.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.14",
     "dotenv": "^16.4.5",
     "next": "^12.0.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },
   "devDependencies": {
+    "@types/react": "18.3.3",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.41",
-    "tailwindcss": "^3.4.10"
+    "tailwindcss": "^3.4.10",
+    "typescript": "5.5.4"
   },
   "keywords": []
 }
