@@ -11,3 +11,20 @@ yarn-error.log*
 .next/
 
 *.local
+
+
+
+[block:8078094 txIndex:4]from: 0x3d9...c06f6to: HederaIdentiFi.(fallback) 0xe02...5ff94value: 0 weidata: 0x608...20033logs: 0hash: 0x1ee...10b9a
+status	0x1 Transaction mined and execution succeed
+transaction hash	0xa1e2a0733b3e3ea0da8161ff82fab636427e9df524f60482531279db21aa61f8
+block hash	0x1ee9aa57d285570ca000468494220cc29d2ce780d350d7535e89fb8207c10b9a
+block number	8078094
+contract address	0xe0266566d99d2e542009c39727a7c6e74565ff94
+from	0x3d9a5e670b435ea5cdc92c852e43c9e94adc06f6
+to	HederaIdentiFi.(fallback) 0xe0266566d99d2e542009c39727a7c6e74565ff94
+gas	236133 gas
+transaction cost	236133 gas 
+input	0x608...20033
+decoded input	-
+decoded output	 - 
+logs	[]

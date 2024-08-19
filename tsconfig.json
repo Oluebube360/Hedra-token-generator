@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "scripts/createHederaClient.js", "scripts/deployContract.js", "scripts/interactWithContract.js"  ],
   "exclude": [
     "node_modules"
   ]
