@@ -6,6 +6,7 @@
       "dom.iterable",
       "esnext"
     ],
+    "baseUrl": ".",
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -17,13 +18,35 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
+  
+  "paths": {
+  "@/*": ["./*"],
+  "@/components/*": ["components/*"],
+  "@/lib/*": ["lib/*"],
+  "@/components/ui/*": ["components/ui/*"],
+  "@/components/ui/toast": ["components/ui/toast"],
+  "@/components/ui/use-toast": ["components/ui/use-toast"],
+  "@/lib/utils": ["lib/utils"],
+  "shadcn/*": ["node_modules/shadcn/*"]
+},
+
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
-, "scripts/createHederaClient.js", "scripts/deployContract.js", "scripts/interactWithContract.js"  ],
+    "**/*.tsx",
+    "scripts/createHederaClient.js",
+    "scripts/deployContract.js",
+    "scripts/interactWithContract.js",
+    ".next/types/**/*.ts",
+    "components/ui/custom-image-uploader.jsx"
+  ],
   "exclude": [
     "node_modules"
   ]
