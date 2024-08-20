@@ -30,9 +30,6 @@
   "@/*": ["./*"],
   "@/components/*": ["components/*"],
   "@/lib/*": ["lib/*"],
-  "@/components/ui/*": ["components/ui/*"],
-  "@/components/ui/toast": ["components/ui/toast"],
-  "@/components/ui/use-toast": ["components/ui/use-toast"],
   "@/lib/utils": ["lib/utils"],
   "shadcn/*": ["node_modules/shadcn/*"]
 },
