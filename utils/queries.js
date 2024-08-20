@@ -1,4 +1,5 @@
 import { ethers } from "ethers";
+import { providers } from 'ethers';
 import { contract } from "./index";
 
 // Function to parse error messages

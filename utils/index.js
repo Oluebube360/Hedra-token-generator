@@ -1,4 +1,6 @@
 import { ethers } from "ethers";
+import { providers } from 'ethers'; 
+
 import idapp from "./HederaIdentiFi.json";
 
 export const contract = async () => {
